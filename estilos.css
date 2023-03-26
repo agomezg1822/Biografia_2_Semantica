@@ -14,19 +14,102 @@ body{
     padding-left: 0%;
     padding-right: 0%;
     color: white;
-
-    
-    font-size: 16px;
-   
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;  
+    font-family: serif;
 }
 
-nav{
-    display: flex;
-    background-color:#737373;
-}
 
 footer{
     background-color:#737373;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    color: white;
+}
+
+.contacto{
+    text-decoration: none;
+    color: white; 
+}
+
+
+.row{
+    display: flex;
+    background-color:#737373;
+   
+}
+
+
+#img{
+    display: block;
+
+}
+#acerca{
+    text-decoration: none;
+    color: white;
+}
+
+#hobbies{
+    text-decoration: none;
+    color: white;
+}
+
+#contacto{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+header{
+    margin-left: 0%;
+}
+
+section.container{
+    display: flex;
+    margin-left: 150px;
+    padding: 0px;
+    margin-top: 100px;
+}
+
+.izquierda{
+    text-align: center;
+    padding-right: 200px;
+}
+
+
+
+.derecha{
+   
+    justify-content: center;
+    text-align: center;
+   
+}
+
+#titulo1{
+    padding-bottom: 80px;
+
+}
+
+#parrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#foto{
+    border-radius: 300px;
+}
+
+
+.container2{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.git{
+    text-decoration: none;
+    color: white; 
+    padding-right: 40px;
 }
 
 

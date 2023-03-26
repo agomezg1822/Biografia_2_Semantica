@@ -9,34 +9,55 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="row">
         <ul class="ul" >
-            <img src="IMAGES/logo2.png" width="150px" height="150px" >
-            <li>Acerca</li>
-            <li>Hobbies</li>
-            <li>Contacto</li>
+            <img src="IMAGES/logo2.png" width="150px" height="150px" id="img">
+            <a href="acerca.html" id="acerca">Acerca</a>
+            <a href="hobbies.html" id="hobbies">Hobbies</a>
+            <a href="contacto.html" id="contacto">Contacto</a>
         </ul>
     </nav>
     <header>
-
+        <section class="container" id="container" >
+            <section class="izquierda">
+                <h1 id="titulo1">ACERCA DE MI</h1>
+                <p id="parrafo1">Estudiante de Ingenieria en Telecomunicaciones, en la Universidad Distrital Francisco José de Caldas. Con gran capacidad para trabajar en equipo, orientado a alcanzar 
+                    metas y obtener óptimos resultados. Habilidades interpersonales centradas en la responsabilidad, el 
+                    liderazgo, trabajo en equipo y bajo presión. Con destrezas en mantenimiento de computadores, reparación de 
+                    dispositivos electrónicos, instalación de software y hardware, conocimientos en redes. Habilidades 
+                    en manejo de microcontroladores, trader.
+                </p>
+            </section>
+            <section class="derecha">
+                <h1 id="titulo2">Bogotá, Colombia</h1>
+                <img src="IMAGES/FOTO.jpg" width="382px" height="616" id="foto">
+            </section>       
+        </section>
     </header>
     <main>
-        <section>
-            <img src="IMAGES/FOTO.jpg" width="137px" height="200">
-        </section>
-        <section>
-
-        </section>
-        <section>
-
+        <section class="container2">
+            <h1>Hobbies</h2>
+                <section class="abajo">
+                    <h3>Ciclismo</h3>
+                    <img src="IMAGES/ciclismo.jpeg"  width="259" height="460">
+                    <h3>Inversiones</h3>
+                    <img src="IMAGES/trader1.jpg"   width="426" height="283">
+                    <h3>Programacion</h3>
+                    <img src="IMAGES/iot.png" width="463px" height="258px">
+                </section>
         </section>
     </main>
+
     <footer>
         <img src="IMAGES/logo2.png" width="150px" height="150px" id="logo">
-        <img src="IMAGES/WhatsApp_icon.png" width="60px" height="60px">
-        <img src="IMAGES/correo.png" width="50px" height="50px">
-        <img src="IMAGES/github.png" width="50px" height="50px">
+        <img src="IMAGES/WhatsApp_icon.png" width="50px" height="50px">
+        <a href="https://api.whatsapp.com/send?phone=3214666990" class="contacto">3214666990</a>
+        <img src="IMAGES/correo.png" width="40px" height="40px">
+        <label>andres_felipe1822@hotmail.com</label>
+        <img src="IMAGES/github.png" width="40px" height="40px">
+        <a href="https://github.com/agomezg1822" class="git">GitHub</a>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
 </body>
 </html>
