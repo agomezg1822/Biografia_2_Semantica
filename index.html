@@ -12,12 +12,12 @@
     <nav class="row">
         <ul class="ul" >
             <img src="IMAGES/logo2.png" width="150px" height="150px" id="img">
-            <a href="acerca.html" id="acerca">Acerca</a>
-            <a href="hobbies.html" id="hobbies">Hobbies</a>
-            <a href="contacto.html" id="contacto">Contacto</a>
+            <a href="#header" id="acerca">Acerca</a>
+            <a href="#main" id="hobbies">Hobbies</a>
+            <a href="#footer" id="contacto">Contacto</a>
         </ul>
     </nav>
-    <header>
+    <header id="header">
         <section class="container" id="container" >
             <section class="izquierda">
                 <h1 id="titulo1">ACERCA DE MI</h1>
@@ -30,25 +30,35 @@
             </section>
             <section class="derecha">
                 <h1 id="titulo2">Bogotá, Colombia</h1>
-                <img src="IMAGES/FOTO.jpg" width="382px" height="616" id="foto">
+                <img src="IMAGES/FOTO.jpg" width="286px" height="462px" id="foto">
             </section>       
         </section>
+        <br><br>
     </header>
-    <main>
-        <section class="container2">
-            <h1>Hobbies</h2>
-                <section class="abajo">
-                    <h3>Ciclismo</h3>
-                    <img src="IMAGES/ciclismo.jpeg"  width="259" height="460">
-                    <h3>Inversiones</h3>
-                    <img src="IMAGES/trader1.jpg"   width="426" height="283">
-                    <h3>Programacion</h3>
-                    <img src="IMAGES/iot.png" width="463px" height="258px">
-                </section>
-        </section>
+    <main class="inicio mx-0 mr-0" id="main">
+        <div>
+            <h1 class="text-center">Hobbies</h1>
+        </div>
+        <br>
+            <div class="row">
+                <div class="col-6" style="position: relative;">
+                    <h2 class="my-4 text-center">Ciclismo</h2>
+                    <img src="IMAGES/ciclismo.jpeg"  width="259" height="460" id="foto" class="mx-auto">
+                </div>    
+                
+                <div class="col-6" style="position: relative;">
+                    <h2 class="my-4 text-center">Inversiones</h2>
+                    <img src="IMAGES/trader1.jpg"   width="426" height="283" id="foto" class="mx-auto">
+                </div>
+                
+                <div class="col" style="position: relative;" >
+                    <h2 class="my-4 text-center">Programacion</h2>
+                    <img src="IMAGES/iot.png" width="463px" height="258px" id="foto" class="mx-auto">
+                </div>                    
+            </div>
+            <br><br>
     </main>
-
-    <footer>
+    <footer id="footer">
         <img src="IMAGES/logo2.png" width="150px" height="150px" id="logo">
         <img src="IMAGES/WhatsApp_icon.png" width="50px" height="50px">
         <a href="https://api.whatsapp.com/send?phone=3214666990" class="contacto">3214666990</a>

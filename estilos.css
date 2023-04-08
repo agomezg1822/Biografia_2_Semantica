@@ -6,6 +6,14 @@ body{
     margin-bottom: 0%;
 }
 
+main{
+    background-color:#737373;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+
 .ul{
     display: flex;
     list-style: none;
@@ -111,6 +119,19 @@ section.container{
     color: white; 
     padding-right: 40px;
 }
+
+.col-6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 
 
