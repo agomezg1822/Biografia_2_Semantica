@@ -8,10 +8,6 @@ body{
 
 main{
     background-color:#737373;
-    margin-top: 0px;
-    margin-left: 0%;
-    margin-right: 0%;
-    margin-bottom: 0%;
 }
 
 .ul{
@@ -46,7 +42,6 @@ footer{
 .row{
     display: flex;
     background-color:#737373;
-   
 }
 
 
@@ -86,18 +81,13 @@ section.container{
     padding-right: 200px;
 }
 
-
-
 .derecha{
-   
     justify-content: center;
     text-align: center;
-   
 }
 
 #titulo1{
     padding-bottom: 80px;
-
 }
 
 #parrafo1{
@@ -122,13 +112,11 @@ section.container{
 
 .col-6{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
 .col{
     display: flex;
-    justify-content: center;
     flex-direction: column;
 }
 
